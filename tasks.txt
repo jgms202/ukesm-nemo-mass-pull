@@ -1,0 +1,33 @@
+# One MASS pull per line:   <suite>  <stream>  <year-start>  <year-end>
+# Comment a line out (#) to skip it. Streams: grid-T diaptr vo mld tau-U tau-V
+# (see pull_nemo_mass.sh for the variables each one keeps).
+
+# --- G6-1.5K-SAI  (r2 / r3 / r12) ---------------------------------------------
+u-dp583  grid-T  2034  2084
+u-dp690  grid-T  2034  2084
+u-dp691  grid-T  2034  2084
+u-dp583  diaptr  2034  2084
+u-dp690  diaptr  2034  2084
+u-dp691  diaptr  2034  2084
+u-dp583  vo      2034  2084
+u-dp690  vo      2034  2084
+u-dp691  vo      2034  2084
+u-dp583  mld     2034  2084
+u-dp690  mld     2034  2084
+u-dp691  mld     2034  2084
+u-dp583  tau-U   2035  2054
+u-dp690  tau-U   2035  2054
+u-dp691  tau-U   2035  2054
+u-dp583  tau-V   2035  2054
+u-dp690  tau-V   2035  2054
+u-dp691  tau-V   2035  2054
+
+# --- SSP2-4.5  (r2 / r3 / r12) — native AMOC only ----------------------------
+u-dp902  diaptr  2015  2100
+u-dp903  diaptr  2015  2100
+u-dp904  diaptr  2015  2100
+
+# --- G6-1.5K-HiLLA  (r2 / r3 / r12) — native AMOC only (runs end 2084-11) ----
+u-ds275  diaptr  2034  2084
+u-ds286  diaptr  2034  2084
+u-ds287  diaptr  2034  2084
